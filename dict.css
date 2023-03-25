@@ -1,0 +1,203 @@
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            
+        }
+      
+        section {
+            
+            width:100%;
+           position: relative;
+            
+            
+        }
+      
+        .cont {
+            padding:10px;
+            display: block;
+            min-height:87vh;
+            width:60vw;
+          
+            
+       background-color:aliceblue;
+       
+       z-index: -1;
+       position: absolute;
+       top:0;
+       top:100px;
+       left:50%;
+       transform: translateX(-50%);
+      
+       z-index: 0;
+        }
+       
+        /* find box */
+        .find {
+         margin-top: 40px;
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            column-gap: 10px;
+            margin-bottom: 40px;
+            width:100%;
+        }
+        .box {
+            position: relative;
+            box-sizing: border-box;
+        }
+        input{
+            height:40px;
+            width:100%;
+            border-radius: 50px;
+           display: block;
+            font-size: 20px;
+            padding-left:15px;
+           
+            outline: 3px solid rgb(184, 16, 184);
+            outline-offset: 3px;
+            border:2px solid rgb(5, 5, 5);
+            position: relative;
+        }
+.box i {
+    position: absolute;
+    top:0;
+    right:0;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+        .s-btn {
+            margin:auto;
+          box-sizing: border-box;
+        }
+       
+        .s-btn button {
+            background: transparent;
+            background-color:rgb(9, 9, 9);
+            border-radius: 10px;
+            padding:10px 20px;
+            color: white;
+           border: none;
+            outline: 3px solid rgb(10, 10, 10);
+            outline-offset: 3px;
+            box-sizing: border-box;
+            font-size: 15px;
+        }
+        /* body styles */
+        .def {
+            margin-top: 20px;
+            /* background-color: rgb(41, 198, 146); */
+        }
+        
+        .word h1{
+            display: inline-block;
+            font-size: 50px;
+        }
+       
+        .word {
+            text-align: left;
+           
+        }
+        .word i {
+            font-size: larger ;
+            margin-left: 20px;
+            display: none;
+        }
+        .word h1 {
+            display: none;
+        }
+        .elob h3 {
+            font-size: 30px;
+            margin-top: 25%;
+            
+        }
+        .defination{
+           
+            margin-top:10px;
+        }
+        .defination h1 {
+            padding:10px 0;
+           font-size: 30px;
+        }
+      
+        .elob h4{
+            font-size: 25px;
+            padding:10px 0;
+        }
+        .elob p{
+            font-size: 20px;
+        }
+        .elob ul {
+            list-style-type:decimal;
+            margin-left:20px;
+        }
+        
+        .ex-li li{
+            list-style-type:decimal;
+            
+        }
+        .limbs{
+            margin-left:0;
+            
+        }
+        .syn p,.ant p {
+           margin:5px 5px;
+           font-size: 20px;
+            
+        }
+        .syn h2,.ant h2 {
+            margin:10px 0;
+        }
+        .ex-head {
+            margin:20px 0;
+        }
+        .elob li {
+            text-align: justify;
+            font-size: 20px;
+        }
+       .nav {
+        position: fixed;
+        height: 100px;
+        width:100%;
+        background-color: rgb(16, 15, 15);
+        text-align: center;
+        display: flex;
+       
+        top:0;
+        z-index: 10;
+       }
+       .nav h1 {
+        font-size: 300%;
+       color: #f33cad;
+        margin: auto;
+       }
+       @media only screen and (max-width: 600px) {
+        .nav h1 {
+        font-size: 200%;
+       color: #f33cad;
+        margin: auto;
+       }
+       .cont {
+            padding:10px;
+            display: block;
+            min-height:87vh;
+            width:100%;
+          
+            /* box-shadow:2px 0px 10px 0px grey,-2px 0 10px 0px grey;
+       z-index: 2; */
+       background-color: aliceblue;
+       
+       z-index: -1;
+       position: absolute;
+       top:0;
+       top:100px;
+       left:50%;
+       transform: translateX(-50%);
+      
+       z-index: 0;
+        }
+       
+
+}
+
+    
