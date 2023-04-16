@@ -5,10 +5,24 @@ let phone=document.getElementById("phone")
 let para=document.getElementById("para")
 let limbs=document.getElementById("limbs")
 let vol=document.getElementById("sound")
+let nav=document.getElementById("nav")
 
 var audio;
 var w;
 var temp;
+window.addEventListener("scroll",()=>{
+    if(window.scrollY>100){
+        document.getElementById("nav").style.display="none";
+
+    }
+    else {
+        document.getElementById("nav").style.display="inline";
+    }
+    return ()=>{
+        window.removeEventListener("scroll")
+    };
+})
+
 input.addEventListener("keyup",function(e){
     w=e.target.value;
 })
